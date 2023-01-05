@@ -66,7 +66,7 @@ String getNdkBuildPath() {
 	} else {
 		ndkBuildPath = ndkBuildingDir + '/ndk-build'
 	}
-	return ndkBuildPath
+	 return ndkBuildPath
 }
 
 task ndkBuild(type: Exec, description: 'Compile JNI source via NDK') {
